@@ -1,0 +1,54 @@
+body {
+    background: #c2ffc2;
+    font-family: Arial;
+    padding: 30px;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #000000;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+.sites {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #6d8864;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background: #6a7e50;
+}
