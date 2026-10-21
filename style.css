@@ -1,0 +1,141 @@
+body {
+    background: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(14, 122, 122);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 22px;
+    color: #02363d;
+    text-align: center;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+p {
+    line-height: 1.0;
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.sites {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #6d8864;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background: #6a7e50;
+}
+  
+
+/* Tablets */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        padding: 14px 8px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .sites {
+        gap: 20px;
+    }
+
+    .tabela {
+        font-size: 22px;
+    }
+
+    th, td {
+        padding: 12px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.35rem;
+        padding: 12px 4px;
+    }
+
+    .foto {
+        width: 160px;
+        height: 160px;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .sites {
+        gap: 16px;
+    }
+
+    .sites img {
+        width: 55px;
+    }
+
+    .tabela {
+        font-size: 18px;
+    }
+
+    .tabela .list-group-item {
+        padding: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 15px;
+    }
+}
